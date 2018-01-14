@@ -1,0 +1,389 @@
+body {
+    height:100%;
+    width:100%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.nav {
+    position: relative;
+    margin: 100px 100px 100px 100px;
+    height: 28px
+}
+
+.nav .nav-title {
+    position: absolute;
+    left: 0;
+    height: 28px;
+
+    font-family: Microsoft YaHei UI;
+    line-height: normal;
+    font-size: 28px;
+
+    color: #000000;
+}
+
+.nav >ul{
+    position: absolute;
+    right: 0;
+    line-height: 28px;
+
+    font-family: Microsoft YaHei UI;
+    font-size: 14px;
+
+    color: #000000;
+}
+
+.nav >ul >li {
+    margin: 0 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    transition: 0.2s;
+}
+
+.nav >ul >li:hover {
+    color: #959595;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.index-view > table {
+    margin: 0 auto;
+}
+
+.index-view > table > tbody > tr > td {
+    text-align: center;
+}
+
+.index-view .hint-back {
+    background: no-repeat;
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    margin: 20px;
+}
+
+.hint-hind{
+    display: none;
+    transition: 0.5s;
+}
+
+.index-view .hint {
+    position:relative;
+    background-color: #ffffffad;
+    width: 100%;
+    height:100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.index-view .hint >div{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%;
+}
+
+.index-view .hint >div >p{
+    font-family: Microsoft YaHei UI;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.index-view .hint >div >h1{
+    font-family: Microsoft YaHei UI;
+    line-height: normal;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.bannner{
+    width: 100%;
+}
+
+.paragraph{
+    margin: 80px 0;
+}
+
+.paragraph>p{
+    font-family: Microsoft YaHei UI;
+    line-height: 27px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: lighter;
+
+    color: #000000;
+}
+
+.paragraph>p>b{
+    font-weight: normal;
+}
+
+.left-and-right{
+    width: 100%;
+}
+
+.left-and-right>tbody>tr>td{
+    vertical-align: top;
+}
+
+.left-and-right-left{
+    width: 70%;
+}
+
+.left-and-right-left>div{
+    padding-right: 60px;
+}
+
+.left-and-right-right{
+    width: 30%;
+}
+
+.left-and-right-right>div{
+    padding-left: 30px;
+}
+
+.right-border{
+    border-right: solid #000000 5px;
+}
+
+.first-page{
+    position: relative;
+    background-color: #fff;
+    padding: 20px 20px 60px;
+}
+
+.dark-page{
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 20px 20px 60px;
+}
+
+.light-page{
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 20px 60px;
+}
+
+.dark-dark-page{
+    position: relative;
+    background-color: #E0E0E0;
+    padding: 20px 20px 60px;
+}
+
+.content-container{
+    max-width:900px;
+    margin: auto;
+}
+
+.title{
+    margin-bottom: 60px;
+    padding-left: 10px;
+}
+
+.title.blue{
+    border-left: solid 10px #6c99d5;
+}
+
+.title.yellow{
+    border-left: solid 10px #F3D884;
+}
+
+.title.green{
+    border-left: solid 10px #338C88;
+}
+
+.title>h1{
+    margin: 0;
+    font-weight: normal;
+}
+
+.title>h2{
+    margin: 0;
+}
+
+.quote{
+    position: relative;
+    border-left: solid #000000 5px;
+    margin: 40px;
+    margin-right: 0;
+    padding-left: 30px;
+}
+
+.quote>p>b.yellow{
+    color: #F3D884;
+}
+
+.quote>p{
+    font-family: Microsoft YaHei UI;
+    line-height: 27px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: lighter;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.quote>h3{
+    margin: 0;
+}
+
+.table{
+    margin: 40px auto;
+    font-weight: lighter;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th{
+    border: solid #ffffff 2px;
+    padding: 10px;
+    vertical-align: middle;
+    font-family: Microsoft YaHei UI;
+    line-height: 27px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+
+.table>tbody>tr>td{
+    text-align: left;
+}
+
+.table>tbody>tr>th{
+    text-align: center;
+}
+
+.table-head>th{
+    background-color: #000000;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.table-tr-odd>td{
+    background: #F2F2F2;
+}
+
+.table-tr-even>td{
+    background: #E6E6E6;
+}
+
+.table-2{
+    vertical-align: top;
+}
+
+.table-2>tbody>tr>td{
+    vertical-align: top;
+    padding: 30px 0;
+}
+
+.table-2>tbody>tr>td>img{
+    margin-right: 80px;
+}
+
+.table-2>tbody>tr>td>p{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin: 0;
+}
+
+.table-2>tbody>tr>td>h3{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.table-2>tbody>tr>td>h4{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+.table-3>tbody>tr>td{
+    padding: 20px 30px;
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    border: 0;
+    vertical-align: top;
+}
+
+.table-3>tbody>tr>td>h3{
+    margin: 0;
+}
+
+.table-3-left{
+    width: 35%;
+}
+
+h3.black{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+h3.gray{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+
+    color: #828282;
+}
+
+td.dark-td{
+    background-color: #f2f2f2; ;
+}
+
+td.light-td{
+    background-color: #ffffff; ;
+}
+
+.img-full-width{
+    width: 100%;
+}
+
+.image-middle-container{
+    text-align: center;
+}
+
+.image-middle-container>img{
+    max-width: 100%;
+}
+
