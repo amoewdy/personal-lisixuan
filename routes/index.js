@@ -18,4 +18,12 @@ router.get('/wandpoint', function(req, res, next) {
     res.render('wandpoint', { title: 'Express' });
 });
 
+router.get('/hema', function(req, res, next) {
+    res.render('hema', { title: 'Express' });
+});
+
+router.get('/about', function(req, res, next) {
+    res.render('about', { title: 'Express' });
+});
+
 module.exports = router;

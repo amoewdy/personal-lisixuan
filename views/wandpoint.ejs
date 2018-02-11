@@ -7,10 +7,10 @@
 </head>
 <body>
 <div class="nav">
-    <div class="nav-title">SIXUAN LI</div>
+    <div class="nav-title"><img src="/images/index/muben logo.png" width="10%" > Sixuan Li</div>
     <ul>
         <li onclick="window.location.href='/'">Work</li>
-        <li>About</li>
+        <li onclick="window.location.href='/about'">About</li>
     </ul>
 </div>
 <img src="/images/wandpoint/bannner.png" class="bannner">
@@ -23,13 +23,13 @@
                         <div class="paragraph">
                             <h1>Wandpoint</h1>
                             <p>
-                                Wandpoint is a handheld AR projection device used in the old streets that releases and interprets architectural memories which disappear over time. During the day, the old block continues to exist as a commercial and cultural area; at night, wandpoint brings people back in time and allows them to enjoy the past life scenes by creating a nostalgic atmosphere
+                                Wandpoint is a handheld AR projection device used in old streets that releases and interprets architectural memories that have disappeared over time. During the day, the old block continues to exist as a commercial and cultural area; at night, wandpoint brings people back in time to enjoy scenes of past life by creating a nostalgic atmosphere.
                             </p>
                             <p>
-                                Wandpoint, as a storyteller, introduces users into an interesting narrative space. Users need to take the initiative to explore, and the illuminated houses, vegetation and interior furnishings will show what they were like years ago.
+                                Wandpoint, as a storytelling tool, introduces users to an interesting narrative space. Users need to take the initiative to explore, and the illuminated houses, vegetation, and interior furnishings will appear as they did years ago.
                             </p>
                             <p>
-                                Wandpoint enhances tourism and root-seeking value in the area. For tourists, it recreates the original appearance of the area in an immersive way, thereby playing a role in science and entertainment. For locals, it satisfies nostalgia and enhances the sense of belonging.
+                                Wandpoint enhances tourism and root-seeking value in the area. For tourists, it recreates the original appearance of an area in an immersive way, thereby playing a role in science and entertainment. For locals, it satisfies nostalgia and enhances a sense of belonging.    
                             </p>
                         </div>
                         <div class="paragraph">
@@ -65,6 +65,14 @@
             </tr>
         </table>
         <img src="/images/wandpoint/1.png" width="100%">
+        <p class="video">
+            <iframe width="854" height="480"
+                    src="https://youtu.be/VtuyhqzTeN4"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen>
+            </iframe>
+        </p>
     </div>
 </div>
 <div class="dark-page">
@@ -171,7 +179,7 @@
             <h2>——Design Elements</h2>
         </div>
         <div class="paragraph">
-            <img src="/images/wandpoint/4.png" style="margin: 40px 0">
+            <img src="/images/wandpoint/4.png" width="100%" style="margin: 40px 0">
         </div>
     </div>
 </div>
@@ -224,7 +232,136 @@
         <div class="image-middle-container">
             <img src="/images/wandpoint/8.png" width="100%">
         </div>
+        <div class="paragraph">
+            <h3>Augmented Reality & Projection</h3>
+            <p>
+                wandpoint is essentially a hand-held AR device that contains a virtual world of the same size as the old block. Users’ exploration with Wandpoint is the process of following a camera to visit the virtual world.<br/> 
+                Because that the form of the projection is clear enough in the dark without covering up the real things, the user can simultaneously see the current constant part of the  architecture and the part that has disappeared through the virtual models stored in Wandpoint. 
+            </p>
+        </div>
     </div>
+</div>
+<div class="black-page">
+    <div class="content-container">
+        <div class="title green">
+            <h1w>Design</h1w><br/> 
+            <h2w>——Projection Content</h2w>
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/9.png" width="100%">
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/10.png" width="100%">
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/11.png" width="80%">
+        </div>
+    </div>
+</div>
+<div class="light-page">
+    <div class="content-container">
+        <div class="title green">
+            <h1>Design</h1>
+            <h2>——Prototyping & Coding</h2>
+        </div>
+        <div class="paragraph">
+            <h3>System Flowchart & Iterations</h3>
+            <p>
+                The basic idea was to control the sensors via <b>Arduino</b>, and pass the data to an <b>Android</b> device that runs the program througn <b>Bluetooth</b>.  
+            </p>
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/12.png" width="60%" >
+        </div>
+        <div class="paragraph">
+            <p>
+                We made the program with <b>Unity3D</b>, and used the information of positions and tracks read by through serial port to control <b>the position of camera  and animation state machine of the virtual world</b>.<br/>
+                At first, in order to ensure the integrity of the product, we tried to install Android on the <b>Raspberry Pi</b> and use it to run the programs built by Unity3D, but we failed because the akp file was too large. In the end, we use the mobile phone as a processor instead.
+            </p>
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/13.png" width="60%">
+        </div>
+    </div>
+</div>
+<img src="/images/wandpoint/14.png" class="bannner">
+<div class="dark-page">
+    <div class="content-container">
+        <div class="title green">
+            <h1>Platform</h1>
+            <h2>——Apply Wandpoint to Other Scenarios</h2>
+        </div>
+        <div class="paragraph">
+            <h3>Design Goals</h3>
+            <p>
+                Considering that wangpoint‘s projection content can be varied, we decide to develop it as a platform that can be applied to a variety of situations.<br/>
+                Goal: To bridge the gap between the virtual world and the physical world, and to create a <b>multi-dimensional solution</b> that enhances the relationship between the virtual and the real.                    
+            </p>
+            <img src="/images/wandpoint/15.png" width="70%" style="margin: 10px 0">
+            <p>
+                With Wandpoing augmenting information according to real-time experience<br/>
+                Can we bring the intangible supernatural to the escape room?<br/>
+                Can we take history off the battlegrounds and into the confines of the museum?<br/> 
+                Can we transform the classroom into the maze that is our galaxy? 
+            </p>
+        </div>
+        <div class="paragraph">
+                <h3>Updated Steps for Usage</h3>
+                <p>
+                   Turn wangpoint into a platform where anyone can upload and download stories.
+                </p>
+                <img src="/images/wandpoint/16.png" width="60%" style="margin: 10px 0">
+        </div>
+        <div class="paragraph">
+                <h3>Mobile Application</h3>
+                <img src="/images/wandpoint/17.png" width="100%" style="margin: 10px 0">
+        </div>
+        <div class="paragraph">
+            <h3>A Concept Video for Fun</h3>
+            <p>
+                Wandpoint will be there to learn and adapt to the increasing dimensionality of the world around us. 
+             </p>
+             <p class="video">
+                <iframe width="854" height="480"
+                        src="https://youtu.be/4a6qe-LO97Q"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                </iframe>
+            </p>
+
+        </div>
+    </div>
+</div>
+<div class="light-page">
+    <div class="content-container">
+        <div class="title green">
+            <h1>Product Launch</h1>
+            <h2>——Product Launch at Zhejiang University</h2>
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/18.png" width="80%">
+        </div>
+        <div class="image-middle-container">
+            <img src="/images/wandpoint/19.png" width="80%"style="margin: 50px 0">
+        </div>
+    </div>
+</div>
+<div class="light-page">
+        <div class="content-container">
+            <div class="ending-pointer">
+                <div onclick="window.location.href='/sandword'">
+                    <span class="next">Next Project</span><br/>
+                    <span class="project">SandWord</span>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="copyright">
+        <div class="image-middle-container">
+            <img src="/images/index/muben logo.png" width="2%" style="margin: 20px 0" >
+        </div>
+        Design & Powered by Sixuan Li &copy; 2017
 </div>
 <script type="text/javascript" src="/javascripts/index.js"></script>
 </body>
