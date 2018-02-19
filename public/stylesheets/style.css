@@ -22,9 +22,10 @@ a {
 
     font-family: optima;
     line-height: normal;
+    ;
     font-size: 32px;
 
-    color: #000000;
+    color: #202020;
 }
 
 .nav >ul{
@@ -45,6 +46,7 @@ a {
     display: inline;
     transition: 0.2s;
     font-size: 13px;
+    color:#202020;
 }
 
 .nav >ul >li:hover {
@@ -241,6 +243,7 @@ p.video{
     font-size: 18px;
     font-weight: bold;
 }
+
 
 .quote{
     position: relative;
@@ -497,3 +500,6 @@ td.light-td{
     color: #9b9b9b; 
 }
 
+a{
+    text-decoration:none
+}
