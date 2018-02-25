@@ -197,7 +197,7 @@ p.video{
 }
 
 .content-container{
-    max-width:900px;
+    max-width:880px;
     margin: auto;
 }
 
@@ -256,6 +256,9 @@ p.video{
 .quote>p>b.yellow{
     color: #F3D884;
 }
+.quote>p>b.orange{
+    color: #F2994A;
+}
 
 .quote>p{
     font-family: Microsoft YaHei UI;
@@ -277,6 +280,30 @@ p.video{
     margin: 40px auto;
     font-weight: lighter;
 }
+.table5{
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: Microsoft YaHei UI;
+}
+.table5>tbody>tr>td, .table>tbody>tr>th{
+    padding: 0 16px 0 0;
+    font-family: Microsoft YaHei UI;
+    line-height: 27px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th{
+    border: solid #ffffff 2px;
+    padding: 10px;
+    vertical-align: middle;
+    font-family: Microsoft YaHei UI;
+    line-height: 27px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
 
 .table>tbody>tr>td, .table>tbody>tr>th{
     border: solid #ffffff 2px;
@@ -301,6 +328,7 @@ p.video{
     font-weight: bold;
     color: #ffffff;
 }
+
 
 .table-tr-odd>td{
     background: #F2F2F2;
