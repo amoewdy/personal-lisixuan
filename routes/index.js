@@ -21,6 +21,9 @@ router.get('/wandpoint', function(req, res, next) {
 router.get('/hema', function(req, res, next) {
     res.render('hema', { title: 'Express' });
 });
+router.get('/lumii', function(req, res, next) {
+    res.render('lumii', { title: 'Express' });
+});
 
 router.get('/about', function(req, res, next) {
     res.render('about', { title: 'Express' });
