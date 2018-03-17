@@ -24,6 +24,9 @@ router.get('/hema', function(req, res, next) {
 router.get('/lumii', function(req, res, next) {
     res.render('lumii', { title: 'Express' });
 });
+router.get('/showcase', function(req, res, next) {
+    res.render('showcase', { title: 'Express' });
+});
 
 router.get('/about', function(req, res, next) {
     res.render('about', { title: 'Express' });

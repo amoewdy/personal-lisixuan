@@ -189,6 +189,11 @@ p.video{
     background-color: #333333;
     padding: 20px 20px 60px;
 }
+.grey-page{
+    position: relative;
+    background-color: #828282;
+    padding: 20px 20px 60px;
+}
 
 .dark-dark-page{
     position: relative;
@@ -273,6 +278,10 @@ p.video{
 
 .quote>h3{
     margin: 0;
+}
+.quote>h4{
+    margin: 0;
+    color: #ffffff;
 }
 
 
